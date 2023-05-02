@@ -15,7 +15,9 @@
 }
 
 .logo img {
-  width: 200px;
+  width: 314px;
+  position: relative;
+  top: -45px;
 }
 
 .topnav .navs li {

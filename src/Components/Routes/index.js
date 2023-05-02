@@ -1,4 +1,5 @@
 import { Navigate } from "react-router-dom";
+import { lazy } from "react";
 import Home from '../../Pages/Home'
 import Login from '../../Pages/Login'
 import Cart from '../../Pages/Cart'
