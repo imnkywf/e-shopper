@@ -7,9 +7,9 @@ export default function Footer() {
       <div className="footer">
         <div className="wrapper">
           <div className="badges">
-            <p className="price">价格亲民</p>
-            <p className="express">物流快捷</p>
-            <p className="quality">品质新鲜</p>
+            <p className="price">Quality</p>
+            <p className="express">Effiency</p>
+            <p className="quality">Fresh</p>
           </div>
           <div className="copyright">
             <p>
