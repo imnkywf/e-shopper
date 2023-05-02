@@ -1,0 +1,16 @@
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+  color: white;
+  border: 1px solid rgba(0, 145, 255, 1);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 1;
+}

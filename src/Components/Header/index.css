@@ -33,15 +33,6 @@
   color: orange;
 }
 
-.topnav .navs .link {
-  font-size: 20px;
-  display: inline-block;
-  line-height: 1;
-  padding: 0 15px;
-  border-right: 2px solid #666666;
-  color: white;
-}
-
 
 .topnav .navs li:last-child a,
 .topnav .navs li:first-child a {
