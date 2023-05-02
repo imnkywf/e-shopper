@@ -1,0 +1,47 @@
+.topnav {
+  background: linear-gradient(90deg, rgba(0, 145, 255, 1) 19%, rgba(21, 155, 255, 1) 47%, rgba(8, 236, 255, 1) 100%);
+}
+
+.topnav .navs {
+  height: 100px;
+  text-align: right;
+  line-height: 100px;
+  font-size: 0;
+}
+
+.logo {
+  display: block;
+  float: left;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.topnav .navs li {
+  display: inline-block;
+  font-size: 14px;
+  height: 90px;
+}
+
+.topnav .navs a {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  padding: 0 15px;
+  border-right: 2px solid #666666;
+  color: white;
+}
+
+.topnav .navs li:last-child a,
+.topnav .navs li:first-child a {
+  border: none;
+}
+
+.userIcon,
+.cartIcon {
+  position: relative;
+  top: 3px;
+  color: white !important;
+  font: 22px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif !important;
+}
