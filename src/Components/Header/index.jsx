@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { NavLink, useRoutes } from 'react-router-dom'
+import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './index.css'
@@ -15,11 +16,13 @@ export default function Header() {
           <ul className="navs">
             <li className='logo'><NavLink to='home'><img src={logo} alt="logo" /></NavLink></li>
             <li>
-              <NavLink to='login'>Login <PersonIcon className='userIcon' /></NavLink>
+              <NavLink to='home' className='link'>Home <HomeIcon className='homeIcon' /></NavLink>
             </li>
-
             <li>
-              <NavLink to='cart'>Shopping Cart <ShoppingCartIcon className='cartIcon' /></NavLink>
+              <NavLink to='login' className='link'>Login <PersonIcon className='userIcon' /></NavLink>
+            </li>
+            <li>
+              <NavLink to='cart' className='link'>Shopping Cart <ShoppingCartIcon className='cartIcon' /></NavLink>
             </li>
 
           </ul>
