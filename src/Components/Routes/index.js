@@ -3,7 +3,7 @@ import Home from '../../Pages/Home'
 import Login from '../../Pages/Login'
 import Cart from '../../Pages/Cart'
 import Products from '../../Pages/Products'
-import ProductsDetails from "../../Pages/Products/ProductsDetails";
+import GoodsDetails from "../../Pages/GoodsDetails";
 
 const routes = [{
   path: 'home',
@@ -20,10 +20,11 @@ const routes = [{
 {
   path: 'products',
   element: <Products />,
-  children: [{
-    path: ':id',
-    element: <ProductsDetails />
-  }]
+},
+{
+  path: '/goods/:id',
+  element: <GoodsDetails />
+
 },
 {
   path: '',

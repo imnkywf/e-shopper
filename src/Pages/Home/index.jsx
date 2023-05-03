@@ -11,7 +11,9 @@ export default function Home() {
           <Banner />
         </div>
         <div className="content">
-          <Link to='/products/2'>hahahahhaha</Link>
+          <Link to='/products' exact>All Products</Link>
+          <Link to='/goods/2' exact>P1</Link>
+          <Link to='/goods/3' exact>P2</Link>
         </div>
         <Outlet />
       </div>

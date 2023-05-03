@@ -16,13 +16,13 @@ export default function Header() {
           <ul className="navs">
             <li className='logo'><NavLink to='home'><img src={logo} alt="logo" /></NavLink></li>
             <li>
-              <NavLink to='home' className='link'>Home <HomeIcon className='homeIcon' /></NavLink>
+              <NavLink to='home' className='link'>Home <HomeIcon className='homeIcon' exact/></NavLink>
             </li>
             <li>
-              <NavLink to='login' className='link'>Login <PersonIcon className='userIcon' /></NavLink>
+              <NavLink to='login' className='link'>Login <PersonIcon className='userIcon' exact/></NavLink>
             </li>
             <li>
-              <NavLink to='cart' className='link'>Shopping Cart <ShoppingCartIcon className='cartIcon' /></NavLink>
+              <NavLink to='cart' className='link'>Shopping Cart <ShoppingCartIcon className='cartIcon' exact/></NavLink>
             </li>
 
           </ul>
