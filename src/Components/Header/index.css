@@ -33,11 +33,13 @@
   color: orange;
 }
 
-.link{
-  font-size: 22px;
+.topnav .navs .link {
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
   color: white;
   border-right: 2px solid orange;
-  padding: 0 15px;
+  padding: 0 12px;
 }
 
 
