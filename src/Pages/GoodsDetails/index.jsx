@@ -1,12 +1,13 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 export default function GoodsDetails() {
+  const { id } = useParams()
   return (
     <div>
       <ul>
-        <li>P1</li>
-        <li>P2</li>
-        <li>P3</li>
+        <li>{id}</li>
+
       </ul>
     </div>
   )
