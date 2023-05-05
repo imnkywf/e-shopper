@@ -27,7 +27,7 @@ export default function Banner() {
         loop
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={(swiper) => { }}
       >
         <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
         <SwiperSlide><img src={banner2} alt="" /></SwiperSlide>
