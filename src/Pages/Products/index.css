@@ -1,0 +1,75 @@
+.panel_trends {
+  height: 610px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.panel_trends li {
+  position: relative;
+  width: 300px;
+  height: 288px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  overflow: hidden;
+  transition: 0.3s;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  transition: all 0.5s;
+}
+
+.panel_trends li:first-child {
+  height: 610px;
+  padding-top: 0;
+  margin-left: 0;
+  border: 0;
+}
+
+.panel_trends li:hover img {
+  transform: scale(1.1)
+}
+
+.panel_trends li .mask {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+  height: 288px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9968779748227415) 0%, rgba(0, 0, 0, 1) 55%, rgba(0, 0, 0, 0.6) 100%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.panel_trends li:hover .mask {
+  top: 60%;
+  opacity: 0.4;
+}
+
+.meta {
+  padding: 20px 5px;
+}
+
+.panel_trends li p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.panel_trends li p.price {
+  color: orange;
+  font-size: 18px;
+}
