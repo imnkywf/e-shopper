@@ -1,18 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './index.css'
-import axios from 'axios'
+import getData from '../../../APIs/ajaxRequest'
 
-const getNewGoods = async () => {
-  const res = await axios.get('http://localhost:5000/api/getnewgoods')
-  return res.data.products
-}
 export default function NewGoods() {
   const [data, setData] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
-      const news = await getNewGoods()
+      const news = await getData('http://localhost:5000/api/getnewgoods')
       setData(news)
     }
     fetchData()
