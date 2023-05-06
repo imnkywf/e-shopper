@@ -41,7 +41,7 @@ export default function GoodsDetails() {
 
   const addToCart = () => {
     const username = localStorage.getItem('user_name')
-    axios.post(`http://localhost:5000/api/addtoCart?username=${username}&id=${id}&good_name=${product.name}&quantity=${quantity}&img_url=${product.img_url}`)
+    axios.post(`http://localhost:5000/api/addtoCart?username=${username}&id=${id}&good_name=${product.name}&quantity=${quantity}&price=${product.price}&img_url=${product.img_url}`)
   }
 
   return (
