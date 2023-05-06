@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import getData from '../../APIs/ajaxRequest'
 import './index.css'
+import axios from 'axios'
 
 export default function GoodsDetails() {
   const [data, setData] = useState([])
@@ -14,7 +15,7 @@ export default function GoodsDetails() {
       const p1 = await getData('http://localhost:5000/api/getnewgoods')
       const p2 = await getData('http://localhost:5000/api/getproducts')
       setData([...p1, ...p2])
-    };
+    }
     getProducts()
   }, [])
 
@@ -36,12 +37,11 @@ export default function GoodsDetails() {
       default:
         break
     }
-
-
   }
 
   const addToCart = () => {
-
+    const username = localStorage.getItem('user_name')
+    axios.post(`http://localhost:5000/api/addtoCart?username=${username}&id=${id}&good_name=${product.name}&quantity=${quantity}&img_url=${product.img_url}`)
   }
 
   return (
