@@ -15,6 +15,8 @@ export default function Cart() {
     getCart();
   }, []);
 
+  const totalPrice = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
+
   return (
     <Fragment>
       <h1>Your Shopping Cart</h1>
@@ -33,6 +35,7 @@ export default function Cart() {
           </li>
         ))}
       </ul>
+      <button className="pay-button">${totalPrice}</button>
     </Fragment>
   );
 }
