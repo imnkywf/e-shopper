@@ -23,9 +23,6 @@ cd e-shopper-server
 ### 4. Install all the dependencies:
 npm install
 
-### 5. Run on your local server
-npm run start
-
 ## Functionality
 ### Browser the products: 
 E-Shopper allows users to explore a diverse range of products, ranging from electronics to fashion.
@@ -40,6 +37,17 @@ Each product listing on E-Shopper includes comprehensive details, specifications
 E-Shopper features a convenient shopping cart functionality, enabling users to add desired products, review their selections.
 
 ## Preview
+![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%201.png "image demo")
+Home
+
+![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%202.png "image demo")
+Login
+
+![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%203.png "image demo")
+Products
+
+![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%204.png "image demo")
+Shopping Cart
 
 
 
