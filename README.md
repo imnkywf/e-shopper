@@ -23,6 +23,9 @@ cd e-shopper-server
 ### 4. Install all the dependencies:
 npm install
 
+### 5. Run on your local server
+npm run start
+
 ## Functionality
 ### Browser the products: 
 E-Shopper allows users to explore a diverse range of products, ranging from electronics to fashion.
