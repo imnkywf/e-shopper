@@ -38,15 +38,19 @@ E-Shopper features a convenient shopping cart functionality, enabling users to a
 
 ## Preview
 ![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%201.png "image demo")
+
 Home
 
 ![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%202.png "image demo")
+
 Login
 
 ![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%203.png "image demo")
+
 Products
 
 ![Alt text](https://github.com/imnkywf/e-shopper/blob/main/Screen%20Shots/Picture%204.png "image demo")
+
 Shopping Cart
 
 
